@@ -1,3 +1,4 @@
+
 //tipo de dados e variáveis
 let a = 'Aluno';
 var b = 10;
@@ -13,6 +14,8 @@ console.log(a, b, c, d);
 //Entruturas de Controle
 if (b > 0)
     console.log("b > 0");
+else
+    console.log("b <= 0");
 
 switch (b) {
     case 0:
@@ -23,7 +26,6 @@ switch (b) {
         break;
     default:
         console.log("Não houve correspondência");
-
 }
 
 for (let i = 0; i < 10; i++) {
