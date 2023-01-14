@@ -1,6 +1,5 @@
 let andarAtual = 0
 
-
 function moveElevador(andarDestino) {
     console.log("Fecha a Porta");
     while (andarAtual != andarDestino) {
@@ -15,8 +14,6 @@ function moveElevador(andarDestino) {
     console.log("Abre a Porta");
 }
 
-
 moveElevador(4)
 console.log("Pessoa Entrou");
 moveElevador(3)
-
